@@ -29,6 +29,8 @@ The scanner interface
 
 Cross-platform issues
 
+Talk `struct` with the database!
+
 
 Issues
 ------
@@ -58,8 +60,9 @@ Packages
 
 A list of popular projects
 
+* [sqlx](https://github.com/jmoiron/sqlx) - provides a super-set of the `database/sql` library
 * [Goose](https://bitbucket.org/liamstask/goose) - database migrations
-* [Go Relational Persistence](https://github.com/coopernurse/gorp)
-* [GORM](https://github.com/jinzhu/gorm)
+* [Go Relational Persistence](https://github.com/coopernurse/gorp) - talk `struct` with the database
+* [GORM](https://github.com/jinzhu/gorm) - talk `struct` with the database
 
-Plugging my own: [Aspect](https://github.com/aodin/aspect)
+And my own: [Aspect](https://github.com/aodin/aspect) - cross-dialect query construction, schema declarations, and talking a variety of types with the database (including structs and slices)
